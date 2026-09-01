@@ -2,3 +2,4 @@
 Comparison of lake surface (water) temperature data from Sentinel-3 LST L2, ASTER08 004, Landsat 4-9 and the CCI global lake dataset. 
 Scripts mainly access and download data, preprocess it and then compare using simple statistics and visualisation. This work has been done during a short-term internship (6 weeks) in the GEUS office Nuuk.
 
+Note: Unfortunately, I encountered conflicts of libraries, so that I had to use two different environments. The `griml` environment is based on the environment for the Greenland Ice-Marginal Lake Inventory by Penelope How, and the `openeo2` environment on the recommended libraries for openeo. Please create the environment from the `.yml` files in this repository :)
